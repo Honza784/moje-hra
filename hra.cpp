@@ -3,7 +3,7 @@
 #include <cstdlib>
 #include <ctime>
 using namespace std;
-
+ 
 string hrac_jmeno;
 string hrac_trida;
 int hrac_zivoty;
@@ -128,7 +128,7 @@ void zkontrolujLevelup()
 		cout << "Max zivoty: +" << bonus << "  Utok: +1  Mana: +1\n";
 	}
 }
-
+ 
 void nastavPaladina()
 {
 	hrac_trida = "Paladin";
@@ -146,7 +146,7 @@ void nastavPaladina()
 	schopnost3_nazev = "Oziveni"; schopnost3_popis = "Obnovi 2 zivoty";
 	schopnost3_poskozeni = 0; schopnost3_vsichni = false; schopnost3_heal = 2; schopnost3_mana = 1;
 }
-
+ 
 void nastavLovce()
 {
 	hrac_trida = "Lovec";
@@ -164,7 +164,7 @@ void nastavLovce()
 	schopnost3_nazev = "Zastaveni"; schopnost3_popis = "Omraci nepritele na 1 tah";
 	schopnost3_poskozeni = 0; schopnost3_vsichni = false; schopnost3_heal = 0; schopnost3_mana = 3;
 }
-
+ 
 void nastavMaga()
 {
 	hrac_trida = "Mag";
@@ -182,7 +182,7 @@ void nastavMaga()
 	schopnost3_nazev = "Mrazeni"; schopnost3_popis = "3 poskozeni a omraci nepritele";
 	schopnost3_poskozeni = 3; schopnost3_vsichni = false; schopnost3_heal = 0; schopnost3_mana = 3;
 }
-
+ 
 void nastavWarlocka()
 {
 	hrac_trida = "Warlock";
@@ -200,7 +200,7 @@ void nastavWarlocka()
 	schopnost3_nazev = "Sate sily"; schopnost3_popis = "Ukradne 3 HP nepriteli";
 	schopnost3_poskozeni = 3; schopnost3_vsichni = false; schopnost3_heal = 3; schopnost3_mana = 2;
 }
-
+ 
 void vyberPostavu()
 {
 	cout << "Zadej jmeno: ";
